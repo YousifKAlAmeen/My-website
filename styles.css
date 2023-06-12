@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6c5353a6;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 40px;
+  }
+  
+  h1.header-color {
+    color: #0e0bdb57; /* Red color for header */
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px solid #333;
+    margin-bottom: 30px;
+  }
+  
+  .social-media-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #8f7d23;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3.header-color {
+    color: #0b0bcc; /* Blue color for header */
+  }
+  
+  .social-media-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-media-container li {
+    margin-bottom: 10px;
+  }
+  
+  .social-media-container li a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media-container li a:hover {
+    background-color: #ff0000; /* Red background color on hover */
+    color: #fff; /* White text color on hover */
+  }
+  
